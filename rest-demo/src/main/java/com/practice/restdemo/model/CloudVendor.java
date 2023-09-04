@@ -1,17 +1,17 @@
 package com.practice.restdemo.model;
 
-public class CloudVender {
+public class CloudVendor {
     private String vendorId;
-    private String vandorName;
+    private String vendorName;
     private String vendorAddress;
     private String vendorPhoneNumber;
 
-    public CloudVender() {
+    public CloudVendor() {
     }
 
-    public CloudVender(String vendorId, String vandorName, String vendorAddress, String vendorPhoneNumber) {
+    public CloudVendor(String vendorId, String vandorName, String vendorAddress, String vendorPhoneNumber) {
         this.vendorId = vendorId;
-        this.vandorName = vandorName;
+        this.vendorName = vandorName;
         this.vendorAddress = vendorAddress;
         this.vendorPhoneNumber = vendorPhoneNumber;
     }
@@ -24,12 +24,12 @@ public class CloudVender {
         this.vendorId = vendorId;
     }
 
-    public String getVandorName() {
-        return vandorName;
+    public String getVendorName() {
+        return vendorName;
     }
 
-    public void setVandorName(String vandorName) {
-        this.vandorName = vandorName;
+    public void setVendorName(String vendorName) {
+        this.vendorName = vendorName;
     }
 
     public String getVendorAddress() {
