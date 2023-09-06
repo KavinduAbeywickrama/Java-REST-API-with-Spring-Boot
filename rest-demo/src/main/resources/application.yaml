@@ -3,7 +3,7 @@
 #    url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
 #    username: root
 #    password: AGlnk@98410
-#
-#
-##JPA Settings
+
+
+#JPA Settings
 #jpa.hibernate.ddl_auto: create

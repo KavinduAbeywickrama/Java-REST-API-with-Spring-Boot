@@ -15,7 +15,6 @@ public class CloudVendorController {
         this.cloudVendorService = cloudVendorService;
     }
 
-
     //get specific cloud vendor details
     @GetMapping("{vendorId}")
     public CloudVendor getCloudVendorDetails(@PathVariable("vendorId") String vendorId){
